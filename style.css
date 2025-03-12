@@ -1,0 +1,251 @@
+
+body{ 
+ font-family: "DM Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 500;
+ font-style: normal;
+ background-color: white;
+ font-size: 18px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 0;
+}
+.container{
+    display: grid;
+    min-width: 200px;
+    max-width: 500px;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 10px 0;
+}
+
+/* Section 1 */
+.item1{
+    background-color: hsl(256, 67%, 59%);
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    text-align: center;
+}
+.ten{
+    color:hsl(39, 100%, 71%);
+}
+.item1pic{
+    width: 50%;
+}
+.item1text{
+    opacity: 0.8;
+}
+
+/* Section 2 */
+.item2{
+    background-color: whitesmoke;
+    padding: 20px;
+    color: hsl(0, 0%, 7%);
+    border-radius: 10px;
+}
+.item2pic{
+    width: 100%;
+}
+
+/* Section 3 */
+.item3{
+    background-color: hsl(39, 100%, 71%);
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    color: 0, hsl(0, 0%, 7%);
+}
+
+/* Section 4 */
+.item4{
+    background-color: hsl(254, 88%, 90%);
+    padding: 20px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 7%);
+    text-align: center;
+}
+.item4pic{
+    width: 100%;
+}
+
+/* Section 5 */
+.item5{
+    background-color: hsl(256, 67%, 59%);
+    padding: 20px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.item5pic{
+    width: 100%;
+}
+
+/* Section 6 */
+.item6{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 7%);
+}
+.item6pic{
+    width: 100%;
+}
+
+/* Section 7 */
+.item7{
+    background-color: hsl(31, 66%, 93%);
+    padding: 20px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 7%);
+}
+.quicker{
+    color: hsl(256, 67%, 59%);
+}
+
+/* Section 8 */
+.item8{
+    background-color: hsl(39, 100%, 71%);
+    padding: 20px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 7%);
+}
+.item8pic{
+    width: 80%;
+}
+
+/* Media Query Section */
+@media only screen and (min-width:481px){
+    body{ 
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+       }
+    .container{
+        display: grid;
+        min-width: 500px;
+        max-width: 1200px;
+        gap: 20px;
+        height: 600px;
+        max-height: 650px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 40% 30% 30%;
+        margin-top: 30px;
+        margin-bottom: 75px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    /* Item 1 */
+    .item1{
+        grid-column: 2 / span  2;
+        grid-row: 1 / span 1;
+    }
+    .item1header{
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .item1pic{
+        margin-top: 30px;
+        margin-bottom: 0;
+        width: 40%;
+    }
+    .item1text{
+        font-size: 10px;
+    }
+    /* Item 2 */
+    .item2{
+        grid-column: 2 / span 1;
+        grid-row: 2 / 2;
+    }
+    .item2header{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    /* Item 3 */
+    .item3{
+        grid-column: 3 / span 1;
+        grid-row: 2 / 2;
+    }
+    .item3pic{
+        width: 60%;
+        margin-top: 10px;
+    }
+    .item3header{
+        margin: 0 ;
+        font-size: 15px;
+    }
+
+    /* Item 4 */
+    .item4{
+        grid-column: 4 / span 1;
+        grid-row: 1 / span 2;
+    }
+    .item4header{
+        font-size: 20px;
+    }
+    .item4text{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    /* Item 5 */
+    .item5{
+        grid-column: 3 / span 2;
+        grid-row: 3 / span 1;
+    }
+    .item5pic{
+        width: 32%;
+        float: left;
+    }
+    .item5header{
+        margin-top: 90px;
+        font-size: 20px;
+    }
+
+    /* Item 6 */
+    .item6{
+        grid-column: 2 / span 1;
+        grid-row: 3/ 3;
+    }
+    .item6header{
+        margin-top: 0;
+    }
+    .item6pic{
+        width: 80%;
+    }
+
+    /* Item 7 */
+    .item7{
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        height: 260px;
+    }
+    .item7pic{
+        width: 60%;
+        margin-top: 15px;
+    }
+    .item7header{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .item8{
+        grid-column: 1 / span 1;
+        grid-row: 3 / 3;
+        height: 280px;
+        margin-top: -138px;
+    }
+    .item8pic{
+        width: 80%;
+    }
+}
