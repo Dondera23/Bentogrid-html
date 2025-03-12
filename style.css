@@ -48,7 +48,7 @@ body{
     border-radius: 10px;
 }
 .item2pic{
-    width: 100%;
+    width: 80%;
 }
 
 /* Section 3 */
@@ -68,7 +68,7 @@ body{
     text-align: center;
 }
 .item4pic{
-    width: 100%;
+    width: 80%;
 }
 
 /* Section 5 */
@@ -80,7 +80,7 @@ body{
     text-align: center;
 }
 .item5pic{
-    width: 100%;
+    width: 80%;
 }
 
 /* Section 6 */
@@ -91,7 +91,7 @@ body{
     color: hsl(0, 0%, 7%);
 }
 .item6pic{
-    width: 100%;
+    width: 80%;
 }
 
 /* Section 7 */
