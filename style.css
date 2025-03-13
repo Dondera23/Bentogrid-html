@@ -19,7 +19,7 @@ body{
     gap: 40px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 /* Section 1 */
