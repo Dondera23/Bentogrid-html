@@ -14,10 +14,9 @@ body{
 }
 .container{
     display: grid;
-    min-width: 200px;
-    max-width: 500px;
+    width:300px;
     gap: 40px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 250px;
     grid-template-rows: auto;
     margin: 10px auto;
 }
