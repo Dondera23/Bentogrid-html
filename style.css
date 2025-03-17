@@ -14,9 +14,10 @@ body{
 }
 .container{
     display: grid;
-    width:350px;
+    min-width:200px;
+    max-width:500px;
     gap: 40px;
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 10px auto;
 }
@@ -28,7 +29,6 @@ body{
     color: hsl(0, 0%, 100%);
     border-radius: 10px;
     text-align: center;
-    margin:0 auto;
 }
 .ten{
     color:hsl(39, 100%, 71%);
